@@ -28,14 +28,29 @@ main{
     transform:translate(-50%, -50%);
     height: 500px;
     width: 250px;
-    background-color: blue;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+iframe{
+    height: 375px;
+    width: 210px;
+    padding-left:19px ;
+    margin-top: 65px;
+
 }
 
 #redes{
     display: flex;
     flex-direction: column;
     width: 50px;
+}
+img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+a:hover{
+    animation-duration: 1s;
+    display: grid;
 }
